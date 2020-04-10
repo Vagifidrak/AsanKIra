@@ -6,7 +6,6 @@ body {
         align-items: center;
         height: 120px;
         width: 100%;
-        z-index: 10000;
 
         .HeaderAndNav {
             position: relative;
@@ -16,7 +15,6 @@ body {
             padding-top: 10px;
 
             .SiteHeader {
-
                 display: flex;
                 align-items: center;
                 margin-top: 10px;
@@ -95,7 +93,6 @@ body {
     #Services {
 
         .ServicesName {
-
             h5 {
                 text-align: center;
                 font-size: 25px;
@@ -121,8 +118,6 @@ body {
                     color: #cccccc;
                     text-decoration: none;
                 }
-
-
             }
 
             &:hover {
@@ -133,9 +128,6 @@ body {
                 }
             }
         }
-
-
-
     }
 
     //  =============      SectionName start   =============
@@ -161,7 +153,6 @@ body {
             width: 9rem;
             top: -4rem;
         }
-
     }
 
     // =============      Main start   =============
@@ -175,7 +166,6 @@ body {
         .RentLogo {
             display: flex;
             padding: 20px;
-
 
             p {
                 font-size: 20px;
@@ -211,5 +201,47 @@ body {
     }
 
     // =============      Footer start   =============
+    .FooterSection {
+        .StateSite {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
 
+            &:active {
+                color: #ffffff;
+            }
+
+            i,
+            a {
+                color: #191970d2;
+            }
+
+            i {
+                padding-right: 5px;
+            }
+
+            a {
+                padding-right: 20px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .Law {
+        display: flex;
+        justify-content: space-between;
+        background-color: #191970;
+
+        p {
+            font-size: 15px;
+            font-weight: 500;
+            margin: 3px;
+            padding-left: 30px;
+            padding-right: 30px;
+            opacity: .7;
+            color: #ffffff;
+        }
+    }
 }

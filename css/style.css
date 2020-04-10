@@ -11,7 +11,6 @@ body #Header {
           align-items: center;
   height: 120px;
   width: 100%;
-  z-index: 10000;
 }
 
 body #Header .HeaderAndNav {
@@ -219,5 +218,57 @@ body .MainSection .SosialIcon a i {
   padding: 15px;
   border: 1px solid #191970;
   border-radius: 25px;
+}
+
+body .FooterSection .StateSite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+body .FooterSection .StateSite:active {
+  color: #ffffff;
+}
+
+body .FooterSection .StateSite i,
+body .FooterSection .StateSite a {
+  color: #191970d2;
+}
+
+body .FooterSection .StateSite i {
+  padding-right: 5px;
+}
+
+body .FooterSection .StateSite a {
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+body .Law {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #191970;
+}
+
+body .Law p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: .7;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
