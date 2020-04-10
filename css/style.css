@@ -1,0 +1,223 @@
+body {
+  background-color: #cccccc5d;
+}
+
+body #Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  width: 100%;
+  z-index: 10000;
+}
+
+body #Header .HeaderAndNav {
+  position: relative;
+  background-color: #191970;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+body #Header .HeaderAndNav .SiteHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+body #Header .HeaderAndNav .SiteHeader .SiteImg {
+  border-radius: 10px;
+}
+
+body #Header .HeaderAndNav .SiteHeader a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body #Header .HeaderAndNav .RegistrHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+body #Header .HeaderAndNav .RegistrHeader .btnHeader {
+  padding: 5px 30px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #191970;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+body #Header .HeaderAndNav .RegistrHeader .btnHeader:hover {
+  color: #ffffff;
+  background-color: #6868a733;
+}
+
+body #Header .HeaderAndNav .RegistrHeader .btnHeader a {
+  text-decoration: none;
+}
+
+body #Header .HeaderAndNav .NavbarHed {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+body #Header .HeaderAndNav .NavbarHed ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #Header .HeaderAndNav .NavbarHed ul li {
+  padding: 10px;
+  margin-right: 20px;
+  list-style: none;
+}
+
+body #Header .HeaderAndNav .NavbarHed ul li a {
+  text-decoration: none;
+  color: #191970c7;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+body #Header .HeaderAndNav .NavbarHed ul li :active {
+  color: #191970;
+}
+
+body #Services .ServicesName h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+body #Services .serv {
+  background-color: #191970;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+body #Services .serv .SevricesType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+body #Services .serv .SevricesType img,
+body #Services .serv .SevricesType a {
+  font-weight: 700;
+  font-size: large;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+body #Services .serv:hover {
+  background-color: #ffffff;
+}
+
+body #Services .serv:hover .SevricesType a {
+  color: #191970;
+}
+
+body .AppStore {
+  background-color: #191970;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+body .AppStore .AppStoreInfo {
+  position: relative;
+  text-align: left;
+  padding: 20px;
+}
+
+body .AppStore .AppStoreInfo h6 {
+  color: #ffffff;
+}
+
+body .AppStore .PhoneImg {
+  right: 10rem;
+  position: absolute;
+  width: 9rem;
+  top: -4rem;
+}
+
+body .MainSection {
+  height: 100px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .MainSection .RentLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+body .MainSection .RentLogo p {
+  font-size: 20px;
+  color: #191970;
+  font-weight: 600;
+}
+
+body .MainSection .SosialIcon {
+  margin: 10px;
+}
+
+body .MainSection .SosialIcon p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #191970;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+body .MainSection .SosialIcon a {
+  text-decoration: none;
+  color: #191970;
+  margin: 10px;
+}
+
+body .MainSection .SosialIcon a i {
+  font-size: 20px;
+  padding: 15px;
+  border: 1px solid #191970;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
