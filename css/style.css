@@ -1,6 +1,5 @@
 body {
   background-color: #cccccc5d;
-  /* OTHERS */
 }
 
 body #Header {
@@ -15,11 +14,9 @@ body #Header {
 }
 
 body #Header .HeaderAndNav {
-  position: relative;
   background-color: #191970;
   width: 100%;
   height: 100%;
-  padding-top: 10px;
 }
 
 body #Header .HeaderAndNav .SiteHeader {
@@ -75,12 +72,8 @@ body #Header .HeaderAndNav .RegistrHeader .btnHeader a {
 }
 
 body #Header .HeaderAndNav .NavbarHed {
-  position: absolute;
   background-color: #ffffff;
-  width: 100%;
-  margin-top: 20px;
   text-align: center;
-  z-index: 999;
 }
 
 body #Header .HeaderAndNav .NavbarHed ul {
@@ -90,11 +83,11 @@ body #Header .HeaderAndNav .NavbarHed ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5px;
 }
 
 body #Header .HeaderAndNav .NavbarHed ul li {
   padding: 10px;
-  margin-right: 20px;
   list-style: none;
 }
 
@@ -199,14 +192,14 @@ body .MainSection .RentLogo p {
 
 body .MainSection .SosialIcon {
   margin: 10px;
+  text-align: center;
 }
 
 body .MainSection .SosialIcon p {
   font-size: 20px;
   font-weight: 600;
   color: #191970;
-  margin-bottom: 0;
-  text-align: center;
+  margin-bottom: 5px;
 }
 
 body .MainSection .SosialIcon a {
@@ -216,10 +209,32 @@ body .MainSection .SosialIcon a {
 }
 
 body .MainSection .SosialIcon a i {
-  font-size: 20px;
+  font-size: 15px;
   padding: 15px;
   border: 1px solid #191970;
   border-radius: 25px;
+}
+
+body .MainSection .SosialIcon :hover {
+  background-color: #191970;
+  color: white;
+}
+
+body .MainSection .Abune p {
+  font-size: 15px;
+  font-weight: 700;
+  opacity: .7;
+  color: #191970;
+  text-align: center;
+  padding-top: 15px;
+}
+
+body .MainSection .Abune .AbuneLb {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+  padding: 15px;
+  border: none;
 }
 
 body .FooterSection .StateSite {
@@ -280,23 +295,6 @@ body .Law p {
   color: #ffffff;
 }
 
-body a {
-  color: #92badd;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-body h2 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 40px 8px 10px 8px;
-  color: #cccccc;
-}
-
 body .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,9 +312,27 @@ body .wrapper {
   width: 100%;
   min-height: 100%;
   padding: 50px;
+  /* OTHERS */
 }
 
-body #formContent {
+body .wrapper a {
+  color: #92badd;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+body .wrapper h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px 8px;
+  color: #cccccc;
+}
+
+body .wrapper #formContent {
   border-radius: 10px 10px 10px 10px;
   background: #fff;
   padding: 30px;
@@ -329,7 +345,25 @@ body #formContent {
   text-align: center;
 }
 
-body #formFooter {
+body .wrapper #formContent .KindGreed {
+  color: #4f9cc2ab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper #formContent .KindGreed h6 {
+  padding-right: 15px;
+}
+
+body .wrapper #formContent .KindGreed h6 input {
+  margin-left: 5px;
+}
+
+body .wrapper #formFooter {
   background-color: #f6f6f6;
   border-top: 1px solid #dce8f1;
   padding: 25px;
@@ -337,18 +371,18 @@ body #formFooter {
   border-radius: 0 0 10px 10px;
 }
 
-body h2.inactive {
+body .wrapper h2.inactive {
   color: #cccccc;
 }
 
-body h2.active {
+body .wrapper h2.active {
   color: #0d0d0d;
   border-bottom: 2px solid #191970;
 }
 
-body input[type=button],
-body input[type=submit],
-body input[type=reset] {
+body .wrapper input[type=button],
+body .wrapper input[type=submit],
+body .wrapper input[type=reset] {
   background-color: #191970;
   border: none;
   color: white;
@@ -366,21 +400,21 @@ body input[type=reset] {
   transition: all 0.3s ease-in-out;
 }
 
-body input[type=button]:hover,
-body input[type=submit]:hover,
-body input[type=reset]:hover {
+body .wrapper input[type=button]:hover,
+body .wrapper input[type=submit]:hover,
+body .wrapper input[type=reset]:hover {
   background-color: #171775c5;
 }
 
-body input[type=button]:active,
-body input[type=submit]:active,
-body input[type=reset]:active {
+body .wrapper input[type=button]:active,
+body .wrapper input[type=submit]:active,
+body .wrapper input[type=reset]:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
 }
 
-body input[type=text],
-body [type=password] {
+body .wrapper input[type=text],
+body .wrapper [type=password] {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -397,17 +431,17 @@ body [type=password] {
   border-radius: 5px 5px 5px 5px;
 }
 
-body input[type=text]:focus,
-body [type=password]:focus {
+body .wrapper input[type=text]:focus,
+body .wrapper [type=password]:focus {
   background-color: #fff;
   border-bottom: 2px solid #5fbae9;
 }
 
-body input[type=text]:placeholder {
+body .wrapper input[type=text]:placeholder {
   color: #cccccc;
 }
 
-body .fadeInDown {
+body .wrapper .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   -webkit-animation-duration: 1s;
@@ -460,7 +494,7 @@ body .fadeInDown {
   }
 }
 
-body .fadeIn {
+body .wrapper .fadeIn {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
   animation: fadeIn ease-in 1;
@@ -470,27 +504,27 @@ body .fadeIn {
   animation-duration: 1s;
 }
 
-body .fadeIn.first {
+body .wrapper .fadeIn.first {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-body .fadeIn.second {
+body .wrapper .fadeIn.second {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
-body .fadeIn.third {
+body .wrapper .fadeIn.third {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
-body .fadeIn.fourth {
+body .wrapper .fadeIn.fourth {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 
-body .underlineHover:after {
+body .wrapper .underlineHover:after {
   display: block;
   left: 0;
   bottom: -10px;
@@ -502,19 +536,45 @@ body .underlineHover:after {
   transition: width 0.2s;
 }
 
-body .underlineHover:hover {
+body .wrapper .underlineHover:hover {
   color: #0d0d0d;
 }
 
-body .underlineHover:hover:after {
+body .wrapper .underlineHover:hover:after {
   width: 100%;
 }
 
-body *:focus {
+body .wrapper *:focus {
   outline: none;
 }
 
-body #icon {
+body .wrapper #icon {
   width: 60%;
+}
+
+body .NewGreed {
+  padding: 10px;
+}
+
+body .NewGreed p {
+  text-align: center;
+}
+
+body .Contract .ContractHeader {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .Contract .ContractHeader a {
+  text-decoration: none;
+  color: #f6f6f6;
 }
 /*# sourceMappingURL=style.css.map */
