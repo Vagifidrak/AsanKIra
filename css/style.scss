@@ -17,6 +17,12 @@ body {
                 align-items: center;
                 margin-top: 10px;
 
+                .userImg {
+                    border-radius: 8%;
+                    margin: 10px 70px;
+                    width: 70px;
+                }
+
                 .SiteImg {
                     border-radius: 10px;
                 }
@@ -573,6 +579,31 @@ body {
     // ====================================
 
     .Contract {
+        height: 69vh;
+
+        .ContInf1 {
+            display: flex;
+            align-items: center;
+
+            #ContActive {
+                background-color: #92badd;
+            }
+
+            h4 {
+                background-color: #191970;
+                padding: 6px 12px;
+                color: #ffffff;
+                margin-right: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            p {
+                margin-top: 15px;
+                font-weight: 600;
+
+            }
+        }
 
         .ContractHeader {
             width: 100%;
@@ -584,6 +615,33 @@ body {
                 text-decoration: none;
                 color: #f6f6f6;
             }
+        }
+
+        .ContractInput {
+
+            h6 {
+                padding-top: 15px;
+                color: #191970;
+            }
+
+            input {
+                width: 20rem;
+                height: 35px;
+            }
+        }
+    }
+
+    // Useraccount Page
+    .Card {
+        margin-top: 40px;
+        border-radius: 5px solid grey;
+
+        h1 {
+
+            color: #191970c7;
+            font-size: 30px;
+            padding: 15px 100px;
+
         }
     }
 }

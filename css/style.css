@@ -29,6 +29,12 @@ body #Header .HeaderAndNav .SiteHeader {
   margin-top: 10px;
 }
 
+body #Header .HeaderAndNav .SiteHeader .userImg {
+  border-radius: 8%;
+  margin: 10px 70px;
+  width: 70px;
+}
+
 body #Header .HeaderAndNav .SiteHeader .SiteImg {
   border-radius: 10px;
 }
@@ -560,6 +566,37 @@ body .NewGreed p {
   text-align: center;
 }
 
+body .Contract {
+  height: 69vh;
+}
+
+body .Contract .ContInf1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .Contract .ContInf1 #ContActive {
+  background-color: #92badd;
+}
+
+body .Contract .ContInf1 h4 {
+  background-color: #191970;
+  padding: 6px 12px;
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body .Contract .ContInf1 p {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
 body .Contract .ContractHeader {
   width: 100%;
   display: -webkit-box;
@@ -576,5 +613,26 @@ body .Contract .ContractHeader {
 body .Contract .ContractHeader a {
   text-decoration: none;
   color: #f6f6f6;
+}
+
+body .Contract .ContractInput h6 {
+  padding-top: 15px;
+  color: #191970;
+}
+
+body .Contract .ContractInput input {
+  width: 20rem;
+  height: 35px;
+}
+
+body .Card {
+  margin-top: 40px;
+  border-radius: 5px solid grey;
+}
+
+body .Card h1 {
+  color: #191970c7;
+  font-size: 30px;
+  padding: 15px 100px;
 }
 /*# sourceMappingURL=style.css.map */
